@@ -248,8 +248,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
                 String phoneNumber = listView.getItemAtPosition(position).toString();
-                System.out.println("clicked");
-                System.out.println(phoneNumber);
+//                System.out.println("clicked");
+//                System.out.println(phoneNumber);
                 dialOrMessage(phoneNumber);
             }
         });
